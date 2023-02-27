@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+header {
+    display: inline-block;
+    font-family: fantasy;
+    float: left;
+    color: black;
+}
+header nav {
+    display: flex;
+    margin-right: 10px;
+    padding-top: 15px;
+    float: right;
+    font-family: cursive;
+    color: blue;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+.content {
+    width: 75%;
+    display: flexbox;
+    margin-left: 20px;
+    background-color:none;
+}
+
+.content img {
+    max-height: 200px;
+}
+
+.information {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family:cursive;
+    background-color:;
+    color: black;
+}
