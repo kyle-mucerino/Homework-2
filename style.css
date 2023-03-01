@@ -2,25 +2,27 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    background-color: aqua;
+    background-color: pink;
 }
 header {
-    padding: 15px 6% 15px 0;
+    font-size: 30px;
+    padding: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    font-family: fantasy;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: black;
 
 }
+
 header nav {
     display: flexbox;
     margin-right: 10px;
     padding-top: 15px;
     float: right;
-    font-family: cursive;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: black;
 }
 
@@ -50,18 +52,56 @@ imgCaption {
     background-color:none;
 }
 
-.content img {
-    max-height: 200px;
-    
+.main img {
+    max-height: 250px;  
 }
 
-.row {
+.float-right img {
+    max-height: 220px;
+}
+
+.main {
     margin: 50px;
     border: 10px solid black;
     padding: 50px;
     height: 350px;
-    font-family:cursive;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color:;
     color: black;
     display: flexbox;
+}
+
+.float-right {
+    margin: 50px;
+    border: 10px solid black;
+    padding: 50px;
+    height: 350px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:;
+    color: black;
+    display: flexbox;
+}
+
+.float-left {
+    margin: 50px;
+    border: 10px solid black;
+    padding: 50px;
+    height: 350px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:;
+    color: black;
+    display: flexbox;
+}
+
+.main h1 {
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 20px;
+    padding: 20px;
+    float: right;
+}
+
+.main p {
+    float: right;
+    font-size: 25px;
 }
